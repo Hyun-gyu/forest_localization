@@ -1,3 +1,7 @@
+Forest_Localisation originally cloned from:
+https://github.com/csiro-robotics/Forest_Localisation
+Modified and integrated locally in this project for customization.
+
 # Forest_Localisation
 
 This repository contains the open-source implementation of the localisation method for forest environments published in RAL 2023:
