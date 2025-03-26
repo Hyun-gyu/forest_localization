@@ -1,3 +1,8 @@
+#!/bin/bash
+
+cd "$(dirname "$0")/.."  # scripts → project root
+
+cat <<EOF > .gitignore
 # ROS
 build/
 devel/
@@ -24,3 +29,6 @@ docker/.docker.xauth
 # Others
 *.log
 *.tmp
+EOF
+
+echo "✅ .gitignore created at project root."
