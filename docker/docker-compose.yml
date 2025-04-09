@@ -9,7 +9,6 @@ services:
     container_name: hg_ForestLocalization
     privileged: true
     ipc: host
-    network_mode: host
     runtime: nvidia
     environment:
       - DISPLAY=${DISPLAY}
